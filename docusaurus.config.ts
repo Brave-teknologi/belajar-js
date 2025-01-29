@@ -5,8 +5,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-   title: "Mastering Solidity",
-   tagline: "Belajar Solidity dari dasar hingga mahir",
+   title: "Belajar Javascript",
+   tagline: "Belajar Javascript dari dasar",
    favicon: "img/javascript.png",
 
    // Set the production url of your site here
@@ -18,7 +18,7 @@ const config: Config = {
    // GitHub pages deployment config.
    // If you aren't using GitHub pages, you don't need these.
    organizationName: "Brave-teknologi", // Usually your GitHub org/user name.
-   projectName: "belajar-solidity", // Usually your repo name.
+   projectName: "belajar-js", // Usually your repo name.
 
    onBrokenLinks: "throw",
    onBrokenMarkdownLinks: "warn",
@@ -40,7 +40,7 @@ const config: Config = {
                // Please change this to your repo.
                // Remove this to remove the "edit this page" links.
                editUrl:
-                  "https://github.com/Brave-teknologi/belajar-solidity/edit/main",
+                  "https://github.com/Brave-teknologi/belajar-js/edit/main",
                routeBasePath: "/",
             },
             theme: {
@@ -66,7 +66,7 @@ const config: Config = {
          items: [
             { to: "/blog", label: "Blog", position: "left" },
             {
-               href: "https://github.com/Brave-teknologi/belajar-solidity",
+               href: "https://github.com/Brave-teknologi/belajar-js",
                label: "GitHub",
                position: "right",
             },
@@ -110,7 +110,7 @@ const config: Config = {
                   },
                   {
                      label: "GitHub",
-                     href: "https://github.com/Brave-teknologi/belajar-solidity",
+                     href: "https://github.com/Brave-teknologi/belajar-js",
                   },
                ],
             },
